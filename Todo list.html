@@ -25,7 +25,8 @@
         <ul id="taskList" class="todoList">
             <!-- Data comes from local storage  -->
         </ul>
-        <button id="addbutton" class="btn btn-primary"><i class="fas fa-plus-circle"></i>&nbsp;Add</button>
+        <button id="addbutton" onclick="addbutton('add') ;" class="btn btn-primary" enabled><i class="fas fa-plus-circle"></i>&nbsp;Add</button>
+        <button id="Savebutton" onclick="addbutton('save') ;" class="btn btn-primary "disabled><i class="fas fa-plus-circle"></i>&nbsp;Save</button>
         <button id="deletAllButton" class="btn btn-danger"><i class="fas fa-trash"></i>&nbsp;  Clear All</button>
     </div>
     <script src="script.js"></script>
